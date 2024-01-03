@@ -1,0 +1,11 @@
+@use '../../sass/variables' as v;
+
+
+.icon{
+    font-size: 40px;
+}
+
+.card{
+    height: 250px;
+    background-color: v.$gray;
+}
