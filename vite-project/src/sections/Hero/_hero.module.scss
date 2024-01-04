@@ -3,4 +3,16 @@
 .btnColor{
     background-color : v.$purple;
     color: beige;
+    &:hover{
+        background-color: v.$lightPurple;
+        scale: (1.2);
+    }
+}
+
+.photo{
+    width: 60%;
+    height: 360px;
+    object-fit:cover;
+    margin-bottom: 40px;
+
 }

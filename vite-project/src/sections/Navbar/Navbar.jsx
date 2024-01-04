@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-secondary py-3">
         <div className="container-fluid ms-5 ">
           <div>
-            <a className={styles.navColor + " navbar-brand fw-bold me-5"} href="#">
+            <a className={styles.navColor + " navbar-brand fs-1 fw-bold me-5"} href="#">
               Design
             </a>
           </div>
@@ -46,6 +46,7 @@ function Navbar() {
             </ul>
           </div>
         </div>
+        
       </nav>
     </>
   );
